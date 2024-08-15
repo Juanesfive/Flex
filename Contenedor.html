@@ -4,20 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contenedor</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <div class="container">
-      <span class="notificacion__icono_Principal">&#42;</span>
-      CSS-TRICKS |
-      <span class="notificacion__icono bx bxs-pie-chart-alt"></span>
-      <span class="notificacion__texto"
-        >Powered by DigitalOcean ARTICLES NOTES LINKS GUIDES ALMANAC SHUFFLE
-        <i class="bx bx-search-alt"></i>
-      </span>
-    </div>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="#" class="header__logo-link">
+            <span class="header__logo-image">*</span> <span>CSS-TRICKS | </span>
+          </a>
+        </div>
+
+        <div class="header__powered-by">
+          <pre class="header__powered-by-text">
+            Powered by
+            <a href="#" class="header__powered-by-link">DigitalOcean</a>
+          </pre>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">ARTICLES</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">NOTES</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">LINKS</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">GUIDES</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">ALMANAC</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">SHUFFLE</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__search-button">
+          <i class="bx bx-search-alt-2 header__search-icon"></i>
+        </button>
+      </div>
+    </header>
   </body>
 </html>
